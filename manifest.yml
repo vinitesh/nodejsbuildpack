@@ -2,7 +2,7 @@
 language: nodejs
 default_versions:
 - name: node
-  version: 4.6.2
+  version: 4.9.1
 exclude_files:
 - ".git/"
 - ".gitignore"
@@ -19,8 +19,8 @@ url_to_dependency_map:
   version: "$1"
 dependencies:
 - name: node
-  version: 4.6.1
-  uri: https://buildpacks.cloudfoundry.org/dependencies/node/node-4.6.1-linux-x64.tgz
-  sha256: 96f37e4bf5f8adafc6a15cdc95bbe6195ccd4c11c65139aca77d5565e17892f5
+  version: 4.9.1
+  uri: https://buildpacks.cloudfoundry.org/dependencies/node/node-4.9.1-linux-x64.tgz
+  sha256: ac621c509e9fd39b6e59df23f33a331605e85157b4bf254cbb9156738a42e4a1
   cf_stacks:
   - cflinuxfs3
